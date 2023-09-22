@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/crochet_by_sienna/static/css/main.073c9b0a.css",
+    "main.js": "/crochet_by_sienna/static/js/main.bb384e12.js",
+    "static/js/787.529561e6.chunk.js": "/crochet_by_sienna/static/js/787.529561e6.chunk.js",
+    "static/media/logo.svg": "/crochet_by_sienna/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/crochet_by_sienna/index.html",
+    "main.073c9b0a.css.map": "/crochet_by_sienna/static/css/main.073c9b0a.css.map",
+    "main.bb384e12.js.map": "/crochet_by_sienna/static/js/main.bb384e12.js.map",
+    "787.529561e6.chunk.js.map": "/crochet_by_sienna/static/js/787.529561e6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.bb384e12.js"
+  ]
+}
