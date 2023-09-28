@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/crochet_by_sienna/static/css/main.073c9b0a.css",
-    "main.js": "/crochet_by_sienna/static/js/main.bb384e12.js",
+    "main.css": "/crochet_by_sienna/static/css/main.f13e7424.css",
+    "main.js": "/crochet_by_sienna/static/js/main.97cd0fdb.js",
     "static/js/787.529561e6.chunk.js": "/crochet_by_sienna/static/js/787.529561e6.chunk.js",
-    "static/media/logo.svg": "/crochet_by_sienna/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/mainImage.webp": "/crochet_by_sienna/static/media/mainImage.86136edc69e70b872605.webp",
+    "static/media/dotsbackground.jpeg": "/crochet_by_sienna/static/media/dotsbackground.8a3ec560934596cf17a6.jpeg",
     "index.html": "/crochet_by_sienna/index.html",
-    "main.073c9b0a.css.map": "/crochet_by_sienna/static/css/main.073c9b0a.css.map",
-    "main.bb384e12.js.map": "/crochet_by_sienna/static/js/main.bb384e12.js.map",
+    "main.f13e7424.css.map": "/crochet_by_sienna/static/css/main.f13e7424.css.map",
+    "main.97cd0fdb.js.map": "/crochet_by_sienna/static/js/main.97cd0fdb.js.map",
     "787.529561e6.chunk.js.map": "/crochet_by_sienna/static/js/787.529561e6.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.bb384e12.js"
+    "static/css/main.f13e7424.css",
+    "static/js/main.97cd0fdb.js"
   ]
 }
