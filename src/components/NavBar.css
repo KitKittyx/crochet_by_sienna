@@ -1,0 +1,94 @@
+/* Positioning of the navbar container list */
+#navbar ul {
+    margin-left: 20em;
+    float: left;
+    list-style: none;
+    margin-top: 1px;
+    text-align: right;
+}
+
+/* Display the list items in a row */
+#navbar li {
+    display: inline-block;
+}
+
+/* Style the text in the list */
+#menu li button {
+    background: none !important;
+    border: none;
+    /* padding: 0 !important; */
+    color: rgb(13, 26, 38);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.7em;
+    height: 50px;
+    letter-spacing: 1px;
+    margin: 0 20px;
+    padding: 0 4px;
+    position: relative;
+    display: block;
+    transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+}
+
+/* Change colour and cursor of the text on hover */
+#navbar li button:hover {
+    color: #FF8DA1;
+    cursor: pointer;
+}
+
+/* Change colour and cursor of the text on active class */
+#menu li button.active {
+    color: #FF8DA1;
+    cursor: pointer;
+}
+
+/* Animate the line on hover */
+#menu li button::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 10px;
+    left: 0;
+    background-color: #FF8DA1;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#menu li button:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Put the line there on active class */
+#menu li button.active::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 1px;
+    bottom: 10px;
+    left: 0;
+    background-color: #FF8DA1;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#menu li button.active::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+/* Style the social link buttons */
+#socialLinks li button {
+    background: none !important;
+    border: none;
+    font-size: 1.2rem;
+    height: 50px;
+    margin: 0 20px;
+    padding: 0 4px;
+    position: relative;
+    display: block;
+}
